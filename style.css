@@ -42,10 +42,13 @@ a {
     display: flex;
     padding: 60px;
     height: 300px;
+    align-items: center;
 }
 
 .description, .image {
     flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .image {
@@ -55,7 +58,8 @@ a {
     text-align: center;
     background: #E5E7EB;
     background-image: url("https://images.unsplash.com/photo-1586227740560-8cf2732c1531?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1261&q=80");
-    background-size: contain;
+    background-size: cover;
+    height: 300px;
 }
 
 button {
